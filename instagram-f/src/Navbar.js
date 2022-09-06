@@ -18,18 +18,32 @@ const Navbar = () => {
               <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2t8hZjN4W7FW5YSjNI0Fl4K91xYTAFlZaQ&usqp=CAU'  height={100} alt="img"/>
            </div>
            <div className='Navbar-searchbar'>
-               <form>
+               <form >
                   
-                  <input className=''></input>
+                  <input  className='input' placeholder='Search'>
+                    
+                  </input>
                </form>
            </div>
            <div className='Navbar-icons'>
-                <HomeOutlinedIcon fontSize='large'/> 
-                 <SendOutlinedIcon fontSize='large'/> 
-                 <AddBoxOutlinedIcon fontSize='large'/> 
-                 <ExploreOutlinedIcon fontSize='large'/>
-                 <FavoriteBorderOutlinedIcon fontSize='large'/>
-                 <AccountCircleOutlinedIcon fontSize='large'/>
+               <div className='icons'>
+               <HomeOutlinedIcon fontSize='large' />
+               </div>
+               <div className='icons'>
+               <SendOutlinedIcon fontSize='large'/>
+               </div> 
+               <div className='icons'>
+               <AddBoxOutlinedIcon fontSize='large'/>
+                </div>  
+                <div className='icons'>
+                <ExploreOutlinedIcon fontSize='large'/>
+                </div> 
+                <div className='icons'>
+                <FavoriteBorderOutlinedIcon fontSize='large'/>  
+                </div>
+                <div className='icons'>
+                <AccountCircleOutlinedIcon fontSize='large'/>    
+                </div> 
            </div>
        </div>
 

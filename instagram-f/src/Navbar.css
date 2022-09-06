@@ -1,6 +1,6 @@
 .Navbar-container{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     justify-content: space-between;
     justify-content: space-around;
@@ -13,8 +13,22 @@
 .Navbar-searchbar{
      border-radius: 10px;
      border-width: 10px;
+     background-color: gray;
+     color: black;
+}
+
+.input{
+    border-radius: 9px;
+    border-width: 2px;
+    height: 25px;
+    color: gray;   
 }
 
 .Navbar-icons{
+    display: flex;
     
+}
+.icons{
+    padding-left: 10px;
+    justify-content: space-between;
 }
