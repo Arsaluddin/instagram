@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     justify-content: space-around;
+    box-shadow: 2px 2px gray;
 }
 
 .Navbar-logo{
