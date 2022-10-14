@@ -7,8 +7,14 @@ const Home = () => {
 
     return(
         <>
-           <Story/>
-           <Posts/>
+           <div className="container">
+              <div className="Story">
+                <Story/>
+              </div>
+              <div>
+                <Posts/>  
+              </div>
+           </div>
         </>
     )
 }

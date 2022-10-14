@@ -8,7 +8,9 @@ const Story = () => {
         <>
             <div className="StoryHeader">
                <div className="Story">
-                    <h1>arsal</h1>
+                  <h1>Arsal</h1>
+                  <h1>Arsal</h1>
+                  <h1>Arsal</h1>
               </div>       
             </div>
         </>
