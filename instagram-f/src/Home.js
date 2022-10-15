@@ -11,7 +11,7 @@ const Home = () => {
               <div className="Story">
                 <Story/>
               </div>
-              <div>
+              <div className="posts">
                 <Posts/>  
               </div>
            </div>

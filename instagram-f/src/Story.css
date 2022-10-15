@@ -5,6 +5,15 @@
     justify-content: center;
 }
 
-h1{
+.stories-img{
+    padding-left: 10px;
     padding-right: 10px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: rgb(235, 14, 216);
+}
+p{
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
