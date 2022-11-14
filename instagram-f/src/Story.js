@@ -1,4 +1,5 @@
 import React from "react";
+import Avatar from '@mui/material/Avatar';
 import './Story.css';
 
 
@@ -9,16 +10,22 @@ const Story = () => {
             <div className="StoryHeader">
                <div className="Story">
                  <div className="stories">
-                    <img className="stories-img" src="https://assets.telegraphindia.com/telegraph/2022/Jun/1655907639_virat.jpg" height={60} width={60}></img>
-                    <p>virat</p>
+                 <Avatar
+                     alt="Remy Sharp"
+                     src="https://assets.telegraphindia.com/telegraph/2022/Jun/1655907639_virat.jpg"
+                     sx={{ width: 60, height: 60 }}/>
                  </div>
                  <div className="stories">
-                    <img className="stories-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGH-vLqWoKxeUdO_-j3FfRt_ickuQEG-QCUroW7k&s" height={60}></img>
-                    <p>arsal</p>
+                 <Avatar
+                     alt="Remy Sharp"
+                     src="https://assets.telegraphindia.com/telegraph/2022/Jun/1655907639_virat.jpg"
+                     sx={{ width: 60, height: 60 }}/>
                  </div>
                  <div className="stories">
-                    <img className="stories-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGH-vLqWoKxeUdO_-j3FfRt_ickuQEG-QCUroW7k&s" height={60}></img>
-                    <p>demo</p>
+                 <Avatar
+                     alt="Remy Sharp"
+                     src="https://assets.telegraphindia.com/telegraph/2022/Jun/1655907639_virat.jpg"
+                     sx={{ width: 60, height: 60 }}/>
                  </div>
               </div>       
             </div>
