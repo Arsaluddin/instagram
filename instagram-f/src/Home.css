@@ -9,3 +9,15 @@
     flex-direction: column;
     margin: 10px;
 }
+
+#modal-modal-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-val{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 2px solid black;
+}
