@@ -7,6 +7,7 @@ import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import ImageUpload from "./ImageUpload";
 
 
 const style = {
@@ -101,6 +102,15 @@ const Home = () => {
                   <Button onClick={() => setOpen(true)}>sign up</Button>
               </div>
             )}
+
+            {/* imageupload---> */}
+          { user?.displayName ? (
+              <ImageUpload username={user.displayName}/>
+            ): (
+              <h3> Sorry You need to login to upload</h3>
+            )
+          }
+
            <Modal
               open={open}
               onClose={() => setOpen(false)}
